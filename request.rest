@@ -1,0 +1,44 @@
+GET http://localhost:3000/ping
+
+###
+GET http://localhost:3000/pingsdf
+
+###
+GET http://localhost:3000/author/get
+
+###
+
+GET http://localhost:3000/book/get
+
+###
+
+
+
+
+GET http://localhost:3000/author/get/640cad0ee379a8d3b623a48d
+
+###
+
+
+GET http://localhost:3000/author/get/640cae0be379a8d3b623a494
+
+###
+
+
+
+GET http://localhost:3000/author/get/640caca7e379a8d3b623a48a
+
+###
+
+
+
+PATCH  http://localhost:3000/author/update/640cae0be379a8d3b623a494 
+
+{
+    "name":"Rahul Shinde"
+}
+###
+
+DELETE  http://localhost:3000/author/delete/640caca7e379a8d3b623a48a
+
+###
